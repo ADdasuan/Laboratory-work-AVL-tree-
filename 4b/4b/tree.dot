@@ -1,0 +1,14 @@
+digraph G {
+  node [shape=circle, fontname="Arial", fontsize=12];
+  edge [arrowhead=vee];
+
+  "0x4df5dd0" [label="200\nheight: 3\ninfo: 445\ninfo: 434\ninfo: 44"];
+  "0x4df5dd0" -> "0x4df6b50" [label="L"];
+  "0x4df6b50" [label="078\nheight: 2\ninfo: 44"];
+  "0x4df6b50" -> "0x4df6f80" [label="L"];
+  "0x4df6f80" [label="\nheight: 1\ninfo: 200"];
+  "0x4df6b50" -> "0x4df6710" [label="R"];
+  "0x4df6710" [label="123\nheight: 1\ninfo: 44"];
+  "0x4df5dd0" -> "0x4df62d0" [label="R"];
+  "0x4df62d0" [label="345\nheight: 1\ninfo: 43"];
+}
